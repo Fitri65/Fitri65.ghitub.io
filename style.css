@@ -1,0 +1,113 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #ff9999; 
+}
+.medsos ul li{
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color:#ff9999 
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color:#ff9999; 
+	color: white;
+}
+.active{
+	background-color:#ff9999; 
+	color: white;
+}
+.banner{
+	height: 60vh;
+	background-image: url(background.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(55,35,39,0.5);
+}
+.banner h2{
+	background-image: url(bgsection.png);
+	color:#ff9999;
+	z-index: 1;
+	padding: 20px 20px;
+	border: 5px double #ff9999;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	background-image: url(bgsection.png);
+	text-align: center;
+	padding: 20px 0;
+	color: #ff8080;
+	margin-bottom: 20px;
+}
+section p{
+	background-image: url(bgsection.png);
+	color: #ff8080;
+	word-spacing: 2px;
+	line-height: 20px;
+	padding: 50px;
+	text-align:justify;
+}
+.pengalaman{
+	background-image: url(bgawan.jpg);
+}
+.biodata{
+	background-image: url(bgbio.jpg);
+}
+.biodata ul li{
+	background-image: url(bgsection.png);
+	text-align: left;
+	padding: 1px 0;
+	color:   #ff8080;
+	margin-bottom: 10px;
+	display: block;
+}
+.gallery{
+	background-image: url(bggallery.jpg);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
